@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/registro_de_revision"
+        android:title="Registro de Revision"
+        android:icon="@drawable/ic_registro_de_revision"
+        />
+    <item
+        android:id="@+id/busqueda_de_revision"
+        android:title="Busqueda de Revision"
+        android:icon="@drawable/ic_busqueda_de_revision"
+        android:checked="true"/>
+    <item
+        android:id="@+id/modificacion_de_revision"
+        android:title="Modificacion de Revision"
+        android:icon="@drawable/ic_modificacion_de_revision"/>
+    <item
+        android:id="@+id/eliminacion_de_revision"
+        android:title="Eliminacion de Revision"
+        android:icon="@drawable/ic_eliminacion_de_revision"/>
+
+
+
+
+
+</group>
+</menu>
